@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Logo Section -->
+            <div class="logo-section">
+                <div class="logo-placeholder">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h2 class="logo-text">ShopPrints</h2>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span class="nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-users"></i>
+                            <span class="nav-text">Users</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-cog"></i>
+                            <span class="nav-text">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-question-circle"></i>
+                            <span class="nav-text">Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Toggle Button -->
+            <button class="toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h1>Welcome to my Dashboard</h1>
+                <p>This is the main content area. The sidebar can be toggled open and closed.</p>
+            </header>
+            
+            <div class="content">
+                <div class="card">
+                    <h3>Sample Content</h3>
+                    <p>This is a sample content card to demonstrate the layout. The sidebar will smoothly animate in and out when you click the toggle button.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Responsive Design</h3>
+                    <p>This sidebar is fully responsive and will adapt to different screen sizes. On mobile devices, it will overlay the content when opened.</p>
+                </div>
+                
+                <div class="card">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>✅ Smooth animations</li>
+                        <li>✅ Responsive design</li>
+                        <li>✅ Icon integration</li>
+                        <li>✅ Clean layout</li>
+                        <li>✅ Mobile-friendly</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
